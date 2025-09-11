@@ -8,7 +8,7 @@
 
     <title inertia>{{ config('app.name', 'Knowledge Management System') }}</title>
     @routes
-    @vite(['resources/css/app.css', 'resources/js/app.ts'])
+    @vite(['resources/js/app.ts'])
     @inertiaHead
 </head>
 
