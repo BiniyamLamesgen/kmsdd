@@ -51,32 +51,6 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Header Section -->
             <div class="text-center mb-12 sm:mb-16 lg:mb-20">
-                <div
-                    class="inline-flex items-center gap-2 sm:gap-3 bg-white rounded-full px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 shadow-xl border border-blue-100 mb-6 sm:mb-8"
-                >
-                    <div
-                        class="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full p-2 sm:p-3"
-                    >
-                        <svg
-                            class="w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-white"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span
-                        class="text-blue-600 font-bold text-sm sm:text-base lg:text-lg"
-                        >About Lemi Kura KMS</span
-                    >
-                </div>
-
                 <h2
                     class="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 leading-tight px-4"
                 >
