@@ -225,7 +225,7 @@ const viewMode = ref("grid");
 </script>
 
 <template>
-    <div class="min-h-screen flex flex-col">
+    <div class="min-h-screen flex flex-col bg-white">
         <div class="max-w-7xl mx-auto w-full sticky top-0 sm:top-2 z-50">
             <NavBar />
         </div>
