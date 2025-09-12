@@ -226,11 +226,13 @@ const viewMode = ref("grid");
 
 <template>
     <div class="min-h-screen flex flex-col">
-        <NavBar />
+        <div class="max-w-7xl mx-auto w-full sticky top-0 sm:top-2 z-50">
+            <NavBar />
+        </div>
 
         <!-- Hero Section -->
         <section
-            class="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden"
+            class="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden max-w-7xl w-full mt-4 mx-auto"
         >
             <!-- Background Pattern -->
             <div class="absolute inset-0 opacity-10">
@@ -280,33 +282,6 @@ const viewMode = ref("grid");
                 class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-28 lg:pt-32 pb-12 sm:pb-16"
             >
                 <div class="text-center">
-                    <!-- Badge -->
-                    <div
-                        class="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8 border border-white/20"
-                    >
-                        <div
-                            class="bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full p-1.5 sm:p-2"
-                        >
-                            <svg
-                                class="w-4 h-4 sm:w-5 sm:h-5 text-white"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                                ></path>
-                            </svg>
-                        </div>
-                        <span
-                            class="text-white font-semibold text-sm sm:text-base"
-                            >Knowledge Management System</span
-                        >
-                    </div>
-
                     <!-- Main Heading -->
                     <h1
                         class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2"
