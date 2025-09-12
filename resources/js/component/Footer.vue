@@ -59,9 +59,7 @@ const handleAnchorClick = (href: string, event: Event) => {
             >
                 <!-- Brand Section -->
                 <div class="sm:col-span-2 lg:col-span-2">
-                    <div
-                        class="flex flex-col sm:flex-row items-center sm:items-start gap-3 mb-4 sm:mb-6"
-                    >
+                    <div class="flex flex-row items-center gap-4 mb-4 sm:mb-6">
                         <div
                             class="bg-gradient-to-r from-blue-500 to-cyan-500 p-1 shadow-lg flex-shrink-0"
                         >
@@ -71,7 +69,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                                 class="h-8 w-8 sm:h-10 sm:w-10 object-cover"
                             />
                         </div>
-                        <div class="text-center sm:text-left">
+                        <div class="text-left">
                             <h3
                                 class="text-lg sm:text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent leading-tight"
                             >
@@ -84,7 +82,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                     </div>
 
                     <p
-                        class="text-gray-300 leading-relaxed mb-6 sm:mb-8 max-w-md text-sm sm:text-base text-center sm:text-left"
+                        class="text-gray-300 leading-relaxed mb-6 sm:mb-8 max-w-md text-sm sm:text-base text-left"
                     >
                         Empowering organizations through innovative knowledge
                         management solutions. Centralize expertise, foster
@@ -93,15 +91,12 @@ const handleAnchorClick = (href: string, event: Event) => {
                     </p>
 
                     <!-- Social Media Links -->
-                    <div
-                        class="flex flex-col sm:flex-row items-center sm:items-center gap-3 sm:gap-4"
-                    >
+                    <div class="flex flex-row items-center gap-3 sm:gap-4">
                         <span
                             class="flex items-center text-xs sm:text-sm text-gray-400 font-medium"
                         >
                             Follow us:
                         </span>
-
                         <div class="flex gap-2 sm:gap-3">
                             <a
                                 href="#"
@@ -168,9 +163,9 @@ const handleAnchorClick = (href: string, event: Event) => {
                 </div>
 
                 <!-- Quick Navigation -->
-                <div class="text-center sm:text-left">
+                <div class="text-left">
                     <h4
-                        class="text-base sm:text-lg font-bold text-white mb-4 sm:mb-6 flex items-center justify-center sm:justify-start gap-2"
+                        class="text-base sm:text-lg font-bold text-white mb-4 sm:mb-6 flex items-center gap-2"
                     >
                         <svg
                             class="w-4 h-4 sm:w-5 sm:h-5 text-blue-400"
@@ -191,7 +186,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         <li>
                             <Link
                                 href="/"
-                                class="group flex items-center justify-center sm:justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 text-sm sm:text-base"
+                                class="group flex items-center justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 text-sm sm:text-base"
                             >
                                 <svg
                                     class="w-3 h-3 sm:w-4 sm:h-4 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -212,7 +207,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         <li>
                             <a
                                 href="#about"
-                                class="group flex items-center justify-center sm:justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 cursor-pointer text-sm sm:text-base"
+                                class="group flex items-center justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 cursor-pointer text-sm sm:text-base"
                                 @click="handleAnchorClick('#about', $event)"
                             >
                                 <svg
@@ -234,7 +229,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         <li>
                             <a
                                 href="#gallery"
-                                class="group flex items-center justify-center sm:justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 cursor-pointer text-sm sm:text-base"
+                                class="group flex items-center justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 cursor-pointer text-sm sm:text-base"
                                 @click="handleAnchorClick('#gallery', $event)"
                             >
                                 <svg
@@ -256,7 +251,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         <li>
                             <Link
                                 href="/frontpage"
-                                class="group flex items-center justify-center sm:justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 text-sm sm:text-base"
+                                class="group flex items-center justify-start gap-2 text-gray-300 hover:text-blue-400 transition-all duration-200 hover:translate-x-1 text-sm sm:text-base"
                             >
                                 <svg
                                     class="w-3 h-3 sm:w-4 sm:h-4 text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -278,9 +273,9 @@ const handleAnchorClick = (href: string, event: Event) => {
                 </div>
 
                 <!-- Contact Information -->
-                <div class="text-center sm:text-left">
+                <div class="text-left">
                     <h4
-                        class="text-base sm:text-lg font-bold text-white mb-4 sm:mb-6 flex items-center justify-center sm:justify-start gap-2"
+                        class="text-base sm:text-lg font-bold text-white mb-4 sm:mb-6 flex items-center gap-2"
                     >
                         <svg
                             class="w-4 h-4 sm:w-5 sm:h-5 text-blue-400"
@@ -299,7 +294,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                     </h4>
                     <div class="space-y-3 sm:space-y-4">
                         <div
-                            class="flex items-center justify-center sm:justify-start gap-3 group"
+                            class="flex items-center justify-start gap-3 group"
                         >
                             <div
                                 class="bg-blue-500/20 p-2 rounded-lg group-hover:bg-blue-500/30 transition-colors flex-shrink-0"
@@ -332,7 +327,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         </div>
 
                         <div
-                            class="flex items-center justify-center sm:justify-start gap-3 group"
+                            class="flex items-center justify-start gap-3 group"
                         >
                             <div
                                 class="bg-green-500/20 p-2 rounded-lg group-hover:bg-green-500/30 transition-colors flex-shrink-0"
@@ -365,7 +360,7 @@ const handleAnchorClick = (href: string, event: Event) => {
                         </div>
 
                         <div
-                            class="flex items-center justify-center sm:justify-start gap-3 group"
+                            class="flex items-center justify-start gap-3 group"
                         >
                             <div
                                 class="bg-red-500/20 p-2 rounded-lg group-hover:bg-red-500/30 transition-colors flex-shrink-0"
@@ -411,22 +406,18 @@ const handleAnchorClick = (href: string, event: Event) => {
             <!-- Divider -->
             <div class="border-t border-slate-700 pt-6 sm:pt-8">
                 <div
-                    class="flex flex-col lg:flex-row items-center justify-between gap-4 sm:gap-6"
+                    class="flex flex-col lg:flex-row items-start justify-between gap-4 sm:gap-6"
                 >
                     <!-- Copyright -->
-                    <div class="text-center lg:text-left">
-                        <p class="text-gray-400 text-xs sm:text-sm">
+                    <div class="text-left">
+                        <p class="text-gray-400 text-xs sm:text-sm font-bold">
                             &copy; {{ new Date().getFullYear() }} Lemi Kura
                             Knowledge Management System. All rights reserved.
-                        </p>
-                        <p class="text-gray-500 text-xs mt-1">
-                            Designed and developed with ❤️ for organizational
-                            excellence
                         </p>
                     </div>
 
                     <!-- Powered By -->
-                    <div class="text-center lg:text-right">
+                    <div class="text-left lg:text-right">
                         <p class="text-white text-xs mb-1 sm:mb-2">
                             Design and Developed by
                             <a

@@ -344,7 +344,7 @@ const props = defineProps<{
 
                     <!-- Main image container -->
                     <div
-                        class="relative bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 border border-white/20 shadow-2xl"
+                        class="relative bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 border border-white/20"
                     >
                         <img
                             src="/images/landingimage.png"
